@@ -1,3 +1,6 @@
+/*Color*/
+/*Font-family*/
+/*Font-weight only for main-font*/
 header {
   display: flex;
   justify-content: center;
@@ -10,8 +13,19 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #EAEAEA;
+  gap: 10px;
+  color: black;
+  font-size: 2rem;
+  font-weight: 500;
+  box-shadow: inset 0 2px 2px #b7b7b7;
 }
 
 * {
-  font-family: "Roboto, sans-serif";
+  font-family: "Roboto";
 }
+
+body {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

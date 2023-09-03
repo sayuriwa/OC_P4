@@ -3,4 +3,10 @@
     justify-content: center;
     align-items: center;
     background-color: $background-color;
+    gap: 10px;
+    color: black;
+    font-size: 2rem;
+    font-weight: $font-weight-medium;
+    box-shadow: inset 0 2px 2px darken($background-color, 20%);
+    height: 100px;
 }
