@@ -1,0 +1,24 @@
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lighten($background-color, 5%);
+    padding: 100px;
+    gap: 50px;
+
+    h1 {
+        font-size: 5rem;
+        font-weight: $font-weight-bold;
+        text-align: center;
+        margin: 0;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: $font-weight-light;
+        text-align: center;
+        margin: 0;
+    }
+
+}
