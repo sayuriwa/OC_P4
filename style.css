@@ -59,6 +59,19 @@ header {
   font-size: 2rem;
 }
 
+.tutorial {
+  display: flex;
+  flex-direction: column;
+}
+.tutorial__content {
+  display: flex;
+  flex-direction: column;
+}
+.tutorial__content__step {
+  display: flex;
+  flex-direction: row;
+}
+
 * {
   font-family: "Roboto";
 }

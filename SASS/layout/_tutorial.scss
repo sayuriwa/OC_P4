@@ -1,0 +1,14 @@
+.tutorial {
+    display: flex;
+    flex-direction: column;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+
+        &__step {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
