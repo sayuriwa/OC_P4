@@ -180,6 +180,19 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+}
+footer ul li {
+  display: flex;
+}
+
 * {
   font-family: "Roboto";
 }

@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: darken($background-color, 80%);
+
+    ul {
+        display: flex;
+        flex-direction: column;
+
+        li {
+            display: flex;
+        }
+    }
+}
