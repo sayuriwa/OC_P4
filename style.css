@@ -180,17 +180,27 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
-footer {
+.footer {
   display: flex;
   flex-direction: column;
   background-color: #1e1e1e;
+  color: white;
 }
-footer ul {
+.footer__title {
+  font-family: "Shrikhand";
+  font-size: 3rem;
+  font-style: italic;
+}
+.footer ul {
   display: flex;
   flex-direction: column;
 }
-footer ul li {
+.footer ul li {
   display: flex;
+  font-size: 2rem;
+}
+.footer ul li p {
+  margin: 0;
 }
 
 * {

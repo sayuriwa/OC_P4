@@ -1,7 +1,14 @@
-footer {
+.footer {
     display: flex;
     flex-direction: column;
     background-color: darken($background-color, 80%);
+    color: white;
+
+    &__title {
+        font-family: $secondary-font;
+        font-size: 3rem;
+        font-style: italic;
+    }
 
     ul {
         display: flex;
@@ -9,6 +16,12 @@ footer {
 
         li {
             display: flex;
+            font-size: 2rem;
+
+            p {
+                margin: 0;
+            }
+
         }
     }
 }
