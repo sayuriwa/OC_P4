@@ -113,6 +113,24 @@ header {
   padding-right: 40px;
   background-color: #f7f7f7;
 }
+.restaurants__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.restaurants__card {
+  display: flex;
+  flex-direction: column;
+}
+.restaurants__card img {
+  object-fit: cover;
+}
+.restaurants__card--new {
+  display: flex;
+}
+.restaurants__card__content {
+  display: flex;
+}
 
 * {
   font-family: "Roboto";

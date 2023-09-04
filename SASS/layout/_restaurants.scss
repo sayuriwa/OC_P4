@@ -4,4 +4,26 @@
     padding-left: 40px;
     padding-right: 40px;
     background-color: lighten($background-color, 5%);
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.restaurants__card {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        object-fit: cover;
+    }
+
+    &--new {
+        display: flex;
+    }
+
+    &__content {
+        display: flex;
+    }
 }
