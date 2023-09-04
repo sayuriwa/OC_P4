@@ -194,13 +194,23 @@ header {
 .footer ul {
   display: flex;
   flex-direction: column;
+  list-style: none;
 }
-.footer ul li {
+.footer ul .footer__content__element {
   display: flex;
   font-size: 2rem;
+  font-weight: 500;
 }
-.footer ul li p {
+.footer ul .footer__content__element p {
   margin: 0;
+}
+.footer ul .footer__content__element--icon {
+  gap: 40px;
+  font-weight: 700;
+}
+.footer ul .footer__content__element--icon i {
+  width: 11px;
+  height: 13px;
 }
 
 * {
