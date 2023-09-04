@@ -14,6 +14,7 @@
 .restaurants__card {
     display: flex;
     flex-direction: column;
+    border-radius: 15px;
 
     img {
         object-fit: cover;
@@ -21,6 +22,17 @@
 
     &--new {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: $font-weight-bold;
+        color: darken($tertiary-color, 20%);
+        background-color: $tertiary-color;
+        width: 200px;
+        height: 80px;
+        position: relative;
+        bottom: 570px;
+        left: 650px;
     }
 
     &__content {

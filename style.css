@@ -121,12 +121,24 @@ header {
 .restaurants__card {
   display: flex;
   flex-direction: column;
+  border-radius: 15px;
 }
 .restaurants__card img {
   object-fit: cover;
 }
 .restaurants__card--new {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4acbab;
+  background-color: #99E2D0;
+  width: 200px;
+  height: 80px;
+  position: relative;
+  bottom: 570px;
+  left: 650px;
 }
 .restaurants__card__content {
   display: flex;
