@@ -212,6 +212,10 @@ header {
   width: 11px;
   height: 13px;
 }
+.footer ul .footer__content__element--link a {
+  text-decoration: none;
+  color: white;
+}
 
 * {
   font-family: "Roboto";
