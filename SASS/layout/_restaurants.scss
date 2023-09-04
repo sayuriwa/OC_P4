@@ -1,0 +1,7 @@
+.restaurants {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: lighten($background-color, 5%);
+}

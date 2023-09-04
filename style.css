@@ -106,6 +106,14 @@ header {
   font-weight: 700;
 }
 
+.restaurants {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #f7f7f7;
+}
+
 * {
   font-family: "Roboto";
 }
