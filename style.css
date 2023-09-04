@@ -37,10 +37,26 @@ header {
   margin: 0;
 }
 .explore p {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 300;
   text-align: center;
   margin: 0;
+}
+
+.button {
+  color: white;
+  background: linear-gradient(#9356DC, #FF79DA);
+  border-radius: 60px;
+  height: 120px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.button p {
+  font-weight: 500;
+  font-size: 2rem;
 }
 
 * {
