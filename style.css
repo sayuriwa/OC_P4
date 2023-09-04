@@ -143,6 +143,10 @@ header {
 .restaurants__card__content {
   display: flex;
   justify-content: space-between;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .restaurants__card__content__text h3 {
   font-size: 3rem;
