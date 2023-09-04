@@ -158,6 +158,23 @@ header {
   font-weight: 300;
   margin: 0;
 }
+.restaurants__card__content__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restaurants__card__content__icon--empty {
+  font-size: 4rem;
+  display: none;
+}
+.restaurants__card__content__icon--full {
+  font-size: 4rem;
+}
+.restaurants__card__content__icon--full i {
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 * {
   font-family: "Roboto";
