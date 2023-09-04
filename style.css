@@ -142,6 +142,17 @@ header {
 }
 .restaurants__card__content {
   display: flex;
+  justify-content: space-between;
+}
+.restaurants__card__content__text h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+.restaurants__card__content__text p {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 0;
 }
 
 * {
