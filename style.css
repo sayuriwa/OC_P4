@@ -181,14 +181,13 @@ header {
 .footer {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
   background-color: #1e1e1e;
   color: white;
-  padding: 40px;
+  padding: 20px;
 }
 .footer__title {
-  font-size: 3rem;
-  font-style: italic;
+  font-size: 1.13rem;
 }
 .footer__title p {
   font-family: "Shrikhand";
@@ -204,14 +203,14 @@ header {
 }
 .footer ul .footer__content__element {
   display: flex;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 .footer ul .footer__content__element p {
   margin: 0;
 }
 .footer ul .footer__content__element--icon {
-  gap: 40px;
+  gap: 20px;
   font-weight: 700;
 }
 .footer ul .footer__content__element--icon i {
