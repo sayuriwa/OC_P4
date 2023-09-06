@@ -190,11 +190,11 @@ header {
   padding: 40px;
 }
 .footer__title {
-  font-family: "Shrikhand";
   font-size: 3rem;
   font-style: italic;
 }
 .footer__title p {
+  font-family: "Shrikhand";
   margin: 0;
 }
 .footer ul {
