@@ -18,6 +18,7 @@
     flex-direction: column;
     box-shadow: 0px 4px 15px 0px #0000001A;
     border-radius: 15px;
+    position: relative;
 
     img {
         object-fit: cover;
@@ -35,16 +36,15 @@
         background-color: $tertiary-color;
         width: 80px;
         height: 29px;
-        position: relative;
-        bottom: 130px;
-        left: 240px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
     }
 
     &__content {
         display: flex;
         justify-content: space-between;
-        padding: 0 20px 20px 20px;
-        margin-top: -10px;
+        padding: 20px;
 
         &__text {
             h3 {
