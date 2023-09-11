@@ -24,4 +24,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    @media (min-width: 1024px) {
+        gap: 30px;
+    }
 }
