@@ -35,6 +35,11 @@ header {
   text-align: center;
   margin: 0;
 }
+@media (min-width: 1024px) {
+  .explore h1 {
+    font-size: 2.5rem;
+  }
+}
 .explore p {
   font-size: 1.13rem;
   font-weight: 300;
@@ -266,7 +271,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  animation: loader 0ms 2000ms forwards ease-in-out;
+  animation: loader 0ms 3000ms forwards ease-in-out;
 }
 .loader__circle {
   width: 50px;
