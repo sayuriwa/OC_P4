@@ -12,17 +12,34 @@
         width: 50px;
         height: 50px;
         border-radius: 50%;
+        animation: loader__circle 1000ms backwards ease-in-out infinite alternate;
+
+        @for $i from 1 through 3 {
+            &--#{$i} {
+                animation-delay: 200ms * $i;
+            }
+        }
+
+        &--1 {
+            background-color: $primary-color;
+        }
+
+        &--2 {
+            background-color: $secondary-color;
+        }
+
+        &--3 {
+            background-color: $tertiary-color;
+        }
+    }
+}
+
+@keyframes loader__circle {
+    0% {
+        transform: translateY(0);
     }
 
-    &__circle--1 {
-        background-color: $primary-color;
-    }
-
-    &__circle--2 {
-        background-color: $secondary-color;
-    }
-
-    &__circle--3 {
-        background-color: $tertiary-color;
+    100% {
+        transform: translateY(-100%);
     }
 }

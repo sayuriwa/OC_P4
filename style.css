@@ -271,6 +271,16 @@ header {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  animation: loader__circle 1000ms backwards ease-in-out infinite alternate;
+}
+.loader__circle--1 {
+  animation-delay: 200ms;
+}
+.loader__circle--2 {
+  animation-delay: 400ms;
+}
+.loader__circle--3 {
+  animation-delay: 600ms;
 }
 .loader__circle--1 {
   background-color: #9356DC;
@@ -282,6 +292,14 @@ header {
   background-color: #99E2D0;
 }
 
+@keyframes loader__circle {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
 * {
   font-family: "Roboto";
 }
