@@ -7,16 +7,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    animation: loader 0ms 3000ms forwards ease-in-out;
 
     &__circle {
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        animation: loader__circle 1000ms backwards ease-in-out infinite alternate;
+        animation: loader__circle 600ms backwards ease-in-out infinite alternate;
 
         @for $i from 1 through 3 {
             &--#{$i} {
-                animation-delay: 200ms * $i;
+                animation-delay: 50ms * $i;
             }
         }
 
@@ -40,6 +41,16 @@
     }
 
     100% {
-        transform: translateY(-100%);
+        transform: translateY(-200%);
+    }
+}
+
+@keyframes loader {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-9999999999px);
     }
 }
