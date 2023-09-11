@@ -6,10 +6,20 @@
     padding-bottom: 50px;
     background-color: lighten($background-color, 5%);
 
+    @media (min-width:1024px) {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
     &__content {
         display: flex;
         flex-direction: column;
         gap: 50px;
+
+        @media (min-width:1024px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
     }
 }
 
@@ -19,6 +29,10 @@
     box-shadow: 0px 4px 15px 0px #0000001A;
     border-radius: 15px;
     position: relative;
+
+    @media (min-width: 1024px) {
+        width: 490px;
+    }
 
     img {
         object-fit: cover;

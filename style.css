@@ -158,10 +158,22 @@ header {
   padding-bottom: 50px;
   background-color: #f7f7f7;
 }
+@media (min-width: 1024px) {
+  .restaurants {
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+}
 .restaurants__content {
   display: flex;
   flex-direction: column;
   gap: 50px;
+}
+@media (min-width: 1024px) {
+  .restaurants__content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .restaurants__card {
@@ -170,6 +182,11 @@ header {
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
   border-radius: 15px;
   position: relative;
+}
+@media (min-width: 1024px) {
+  .restaurants__card {
+    width: 490px;
+  }
 }
 .restaurants__card img {
   object-fit: cover;
