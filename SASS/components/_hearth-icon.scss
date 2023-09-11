@@ -1,0 +1,20 @@
+.hearth-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__empty {
+        font-size: 2rem;
+        display: none;
+    }
+
+    &__full {
+        font-size: 2rem;
+
+        i {
+            background: -webkit-gradient(linear, left top, left bottom, from($primary-color), to($secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
