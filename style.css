@@ -232,13 +232,24 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.hearth-icon__empty {
   font-size: 2rem;
-  display: none;
+  position: relative;
+  z-index: 1;
+  transition: opacity 250ms;
+}
+.hearth-icon:hover .hearth-icon__full {
+  opacity: 1;
 }
 .hearth-icon__full {
   font-size: 2rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 250ms;
 }
 .hearth-icon__full i {
   background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
