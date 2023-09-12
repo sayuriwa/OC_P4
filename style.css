@@ -375,6 +375,16 @@ header {
   border-radius: 40px 40px 0 0;
   position: relative;
   top: -70px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Mainpage__content__title {
+  display: flex;
+  justify-content: space-between;
+}
+.Mainpage__content__title h1 {
+  font-family: "Shrikhand";
+  font-size: 1.75rem;
 }
 
 * {
