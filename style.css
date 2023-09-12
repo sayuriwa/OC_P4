@@ -413,8 +413,9 @@ header {
   background-color: white;
   border-radius: 15px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  height: 72px;
 }
 .Menu__content__card__text h3 {
   font-size: 1.13rem;
@@ -425,6 +426,13 @@ header {
   font-size: 0.94rem;
   font-weight: 300;
   margin: 0;
+}
+.Menu__content__card__price {
+  align-self: flex-end;
+}
+.Menu__content__card__price p {
+  font-size: 0.94rem;
+  font-weight: 700;
 }
 
 * {

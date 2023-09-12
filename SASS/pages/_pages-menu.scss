@@ -25,8 +25,9 @@
             background-color: white;
             border-radius: 15px;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
+            height: 72px;
 
             &__text {
                 h3 {
@@ -39,6 +40,15 @@
                     font-size: 0.94rem;
                     font-weight: $font-weight-light;
                     margin: 0;
+                }
+            }
+
+            &__price {
+                align-self: flex-end;
+
+                p {
+                    font-size: 0.94rem;
+                    font-weight: $font-weight-bold;
                 }
             }
         }
