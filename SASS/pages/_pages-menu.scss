@@ -27,6 +27,20 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+
+            &__text {
+                h3 {
+                    font-size: 1.13rem;
+                    font-weight: $font-weight-bold;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 0.94rem;
+                    font-weight: $font-weight-light;
+                    margin: 0;
+                }
+            }
         }
     }
 }
