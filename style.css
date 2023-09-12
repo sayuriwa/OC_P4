@@ -367,6 +367,16 @@ header {
   color: black;
 }
 
+.Mainpage {
+  background-color: #EAEAEA;
+}
+.Mainpage__content {
+  background-color: #EAEAEA;
+  border-radius: 40px 40px 0 0;
+  position: relative;
+  top: -70px;
+}
+
 * {
   font-family: "Roboto";
 }
