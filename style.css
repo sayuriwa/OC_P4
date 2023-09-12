@@ -231,6 +231,11 @@ header {
   color: white;
   padding: 20px;
 }
+@media (min-width: 1024px) {
+  .footer {
+    flex-direction: row-reverse;
+  }
+}
 .footer__title {
   font-size: 1.13rem;
 }
@@ -245,6 +250,11 @@ header {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+@media (min-width: 1024px) {
+  .footer ul {
+    flex-direction: row;
+  }
 }
 .footer ul .footer__content__element {
   display: flex;
