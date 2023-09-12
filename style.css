@@ -358,6 +358,15 @@ header {
     transform: translateX(-9999999999px);
   }
 }
+.Pages-LinkToHomepage {
+  font-size: 30px;
+  position: relative;
+  right: 64px;
+}
+.Pages-LinkToHomepage a {
+  color: black;
+}
+
 * {
   font-family: "Roboto";
 }
