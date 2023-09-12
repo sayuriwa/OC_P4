@@ -1,0 +1,29 @@
+.Menu {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        h2 {
+            font-size: 1rem;
+            font-weight: $font-weight-light;
+        }
+    }
+
+    &__title-decoration {
+        background-color: $tertiary-color;
+        width: 40px;
+        height: 3px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+
+        &__card {
+            background-color: white;
+            border-radius: 15px;
+        }
+    }
+}

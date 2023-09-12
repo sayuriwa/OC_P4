@@ -390,6 +390,30 @@ header {
   font-size: 1.75rem;
 }
 
+.Menu {
+  display: flex;
+  flex-direction: column;
+}
+.Menu__title h2 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.Menu__title-decoration {
+  background-color: #99E2D0;
+  width: 40px;
+  height: 3px;
+}
+.Menu__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.Menu__content__card {
+  background-color: white;
+  border-radius: 15px;
+}
+
 * {
   font-family: "Roboto";
 }
