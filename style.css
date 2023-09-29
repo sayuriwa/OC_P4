@@ -164,18 +164,12 @@ header img {
   padding-bottom: 50px;
   background-color: #f7f7f7;
 }
-@media (min-width: 1024px) {
-  .restaurants {
-    padding-left: 180px;
-    padding-right: 180px;
-  }
-}
 .restaurants__content {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .restaurants__content {
     flex-direction: row;
     flex-wrap: wrap;
@@ -189,9 +183,9 @@ header img {
   border-radius: 15px;
   position: relative;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .restaurants__card {
-    width: 490px;
+    width: calc(50% - 25px);
   }
 }
 .restaurants__card img {

@@ -6,17 +6,12 @@
     padding-bottom: 50px;
     background-color: lighten($background-color, 5%);
 
-    @media (min-width:1024px) {
-        padding-left: 180px;
-        padding-right: 180px;
-    }
-
     &__content {
         display: flex;
         flex-direction: column;
         gap: 50px;
 
-        @media (min-width:1024px) {
+        @media (min-width:768px) {
             flex-direction: row;
             flex-wrap: wrap;
         }
@@ -30,8 +25,8 @@
     border-radius: 15px;
     position: relative;
 
-    @media (min-width: 1024px) {
-        width: 490px;
+    @media (min-width: 768px) {
+        width: calc(50% - 25px);
     }
 
     img {
