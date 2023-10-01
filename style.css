@@ -175,6 +175,12 @@ header img {
   padding-bottom: 50px;
   background-color: #f7f7f7;
 }
+@media (min-width: 1024px) {
+  .restaurants {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
 .restaurants__content {
   display: flex;
   flex-direction: column;
