@@ -25,11 +25,13 @@
             background-color: white;
             border-radius: 15px;
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
             height: 72px;
 
             &__text {
+                padding-left: 10px;
+                
                 h3 {
                     font-size: 1.13rem;
                     font-weight: $font-weight-bold;

@@ -430,9 +430,12 @@ header img {
   background-color: white;
   border-radius: 15px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 72px;
+}
+.Menu__content__card__text {
+  padding-left: 10px;
 }
 .Menu__content__card__text h3 {
   font-size: 1.13rem;
