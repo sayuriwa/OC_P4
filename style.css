@@ -394,9 +394,6 @@ header img {
   font-size: 20px;
 }
 
-.Mainpage {
-  background-color: #EAEAEA;
-}
 @media (min-width: 1024px) {
   .Mainpage img {
     object-fit: cover;
@@ -409,6 +406,7 @@ header img {
   border-radius: 40px 40px 0 0;
   position: relative;
   top: -70px;
+  margin-bottom: -70px;
   padding-left: 20px;
   padding-right: 20px;
   display: flex;
@@ -433,6 +431,7 @@ header img {
 .Mainpage__content__button {
   align-self: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .Menu {
