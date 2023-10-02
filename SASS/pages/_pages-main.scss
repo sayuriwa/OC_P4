@@ -21,6 +21,11 @@
         justify-content: space-between;
         gap: 10px;
 
+        @media (min-width: 1024px) {
+            width: 80%;
+            align-self: center;
+        }
+
         &__title {
             display: flex;
             justify-content: space-between;
