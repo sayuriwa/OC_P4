@@ -424,6 +424,12 @@ header img {
   display: flex;
   justify-content: space-between;
 }
+@media (min-width: 1024px) {
+  .Mainpage__content__title {
+    justify-content: center;
+    gap: 30px;
+  }
+}
 .Mainpage__content__title h1 {
   font-family: "Shrikhand";
   font-size: 1.75rem;
