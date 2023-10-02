@@ -1,6 +1,9 @@
 .Pages-LinkToHomepage {
     position: relative;
     right: 80px;
+    @media (min-width: 768px) {
+        right: 280px;
+    }
 
     a {
         color: black;

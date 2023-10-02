@@ -382,6 +382,11 @@ header img {
   position: relative;
   right: 80px;
 }
+@media (min-width: 768px) {
+  .Pages-LinkToHomepage {
+    right: 280px;
+  }
+}
 .Pages-LinkToHomepage a {
   color: black;
 }
