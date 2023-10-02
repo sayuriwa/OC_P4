@@ -460,11 +460,15 @@ header img {
   font-size: 1.13rem;
   font-weight: 700;
   margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .Menu__content__card__text p {
   font-size: 0.94rem;
   font-weight: 300;
   margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .Menu__content__card__price {
   align-self: flex-end;

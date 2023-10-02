@@ -39,12 +39,16 @@
                     font-size: 1.13rem;
                     font-weight: $font-weight-bold;
                     margin: 0;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                 }
 
                 p {
                     font-size: 0.94rem;
                     font-weight: $font-weight-light;
                     margin: 0;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                 }
             }
 
