@@ -1,6 +1,14 @@
 .Mainpage {
     background-color: $background-color;
 
+    img {
+        @media (min-width: 1024px) {
+            object-fit: cover;
+            object-position: 50% 60%;
+            height: 383px;
+        }
+    }
+
     &__content {
         background-color: $background-color;
         border-radius: 40px 40px 0 0;

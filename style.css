@@ -397,6 +397,13 @@ header img {
 .Mainpage {
   background-color: #EAEAEA;
 }
+@media (min-width: 1024px) {
+  .Mainpage img {
+    object-fit: cover;
+    object-position: 50% 60%;
+    height: 383px;
+  }
+}
 .Mainpage__content {
   background-color: #EAEAEA;
   border-radius: 40px 40px 0 0;
