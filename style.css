@@ -468,6 +468,8 @@ header img {
 }
 .Menu__content__card__price {
   align-self: flex-end;
+  margin-left: auto;
+  margin-right: 10px;
 }
 .Menu__content__card__price p {
   font-size: 0.94rem;
