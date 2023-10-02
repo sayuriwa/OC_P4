@@ -406,14 +406,23 @@ header img {
   font-family: "Shrikhand";
   font-size: 1.75rem;
 }
+.Mainpage__content__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
 
 .Menu {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
 }
 .Menu__title h2 {
   font-size: 1rem;
   font-weight: 300;
+  margin: 0;
 }
 .Menu__title-decoration {
   background-color: #99E2D0;

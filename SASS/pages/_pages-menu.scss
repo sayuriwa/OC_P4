@@ -1,11 +1,14 @@
 .Menu {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
 
     &__title {
         h2 {
             font-size: 1rem;
             font-weight: $font-weight-light;
+            margin: 0;
         }
     }
 
