@@ -2,7 +2,7 @@
     position: relative;
     right: 80px;
     @media (min-width: 768px) {
-        right: 280px;
+        right: calc(50% - 80px);
     }
 
     a {

@@ -384,7 +384,7 @@ header img {
 }
 @media (min-width: 768px) {
   .Pages-LinkToHomepage {
-    right: 280px;
+    right: calc(50% - 80px);
   }
 }
 .Pages-LinkToHomepage a {
