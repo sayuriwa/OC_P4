@@ -31,14 +31,20 @@
             justify-content: space-between;
             align-items: center;
             height: 72px;
-
-            &:hover > .Menu__content__card__check {
-               transform: scaleX(1);
+            
+            &:hover > .Menu__content__card__text {
+                animation: text 300ms forwards ease-in-out;
             }
 
             &:hover > .Menu__content__card__price {
                 animation: price 300ms forwards ease-in-out;
             }
+
+            &:hover > .Menu__content__card__check {
+               transform: scaleX(1);
+            }
+
+            
 
             &__text {
                 padding-left: 10px;
@@ -97,6 +103,15 @@
     }
     100% {
         margin-right: 10px;
+    }
+}
+
+@keyframes text {
+    0% {
+        width: 80%;
+    }
+    100% {
+        width: calc(80% - 59px);
     }
 }
 

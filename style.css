@@ -482,11 +482,14 @@ header img {
   align-items: center;
   height: 72px;
 }
-.Menu__content__card:hover > .Menu__content__card__check {
-  transform: scaleX(1);
+.Menu__content__card:hover > .Menu__content__card__text {
+  animation: text 300ms forwards ease-in-out;
 }
 .Menu__content__card:hover > .Menu__content__card__price {
   animation: price 300ms forwards ease-in-out;
+}
+.Menu__content__card:hover > .Menu__content__card__check {
+  transform: scaleX(1);
 }
 .Menu__content__card__text {
   padding-left: 10px;
@@ -537,6 +540,14 @@ header img {
   }
   100% {
     margin-right: 10px;
+  }
+}
+@keyframes text {
+  0% {
+    width: 80%;
+  }
+  100% {
+    width: calc(80% - 59px);
   }
 }
 * {
