@@ -175,6 +175,11 @@ header img {
   padding-bottom: 50px;
   background-color: #f7f7f7;
 }
+.restaurants a {
+  display: contents;
+  text-decoration: none;
+  color: black;
+}
 @media (min-width: 1024px) {
   .restaurants {
     padding-left: 120px;

@@ -6,6 +6,12 @@
     padding-bottom: 50px;
     background-color: lighten($background-color, 5%);
 
+    a {
+        display: contents;
+        text-decoration: none;
+        color: black;
+    }
+
     @media (min-width: 1024px) {
         padding-left: 120px;
         padding-right: 120px;
