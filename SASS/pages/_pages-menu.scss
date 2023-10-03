@@ -32,6 +32,10 @@
             align-items: center;
             height: 72px;
 
+            &:hover > .Menu__content__card__check {
+               transform: scaleX(1);
+            }
+
             &__text {
                 padding-left: 10px;
                 
@@ -73,7 +77,13 @@
                 align-items: center;
                 height: 100%;
                 width: 59px;
+                transform: scaleX(0);
+                transition: transform 300ms ease-in-out;
+                transform-origin: right center;
             }
         }
     }
 }
+
+
+

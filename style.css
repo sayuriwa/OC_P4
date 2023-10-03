@@ -482,6 +482,9 @@ header img {
   align-items: center;
   height: 72px;
 }
+.Menu__content__card:hover > .Menu__content__card__check {
+  transform: scaleX(1);
+}
 .Menu__content__card__text {
   padding-left: 10px;
 }
@@ -518,6 +521,9 @@ header img {
   align-items: center;
   height: 100%;
   width: 59px;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+  transform-origin: right center;
 }
 
 * {
