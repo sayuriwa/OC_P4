@@ -486,11 +486,16 @@ header img {
   justify-content: space-between;
   align-items: center;
   height: 72px;
+  overflow: hidden;
+}
+.Menu__content__card:hover > .Menu__content__card__check {
+  animation: check 300ms forwards ease-in-out;
 }
 .Menu__content__card__text {
   padding-left: 10px;
   width: 80%;
   white-space: nowrap;
+  overflow: hidden;
 }
 .Menu__content__card__text h3 {
   font-size: 1.13rem;
@@ -508,8 +513,8 @@ header img {
 }
 .Menu__content__card__price {
   align-self: flex-end;
-  margin-left: auto;
-  margin-right: -49px;
+  margin-left: 5%;
+  margin-right: 2%;
 }
 .Menu__content__card__price p {
   font-size: 0.94rem;
@@ -525,9 +530,17 @@ header img {
   align-items: center;
   height: 100%;
   width: 59px;
-  overflow: hidden;
+  margin-right: -59px;
 }
 
+@keyframes check {
+  0% {
+    margin-right: -59px;
+  }
+  100% {
+    margin-right: 0;
+  }
+}
 * {
   font-family: "Roboto";
 }
