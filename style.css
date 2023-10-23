@@ -478,6 +478,7 @@ header img {
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
+  overflow: hidden;
 }
 .Menu__content__card {
   background-color: white;
@@ -487,9 +488,22 @@ header img {
   align-items: center;
   height: 72px;
   overflow: hidden;
+  animation: menu 1000ms cubic-bezier(0.17, 0.81, 0.79, 0.84);
 }
 .Menu__content__card:hover > .Menu__content__card__check {
-  animation: check 300ms forwards ease-in-out;
+  animation: check 500ms forwards ease-in-out;
+}
+.Menu__content__card--1 {
+  animation-delay: 100ms;
+}
+.Menu__content__card--2 {
+  animation-delay: 200ms;
+}
+.Menu__content__card--3 {
+  animation-delay: 300ms;
+}
+.Menu__content__card--4 {
+  animation-delay: 400ms;
 }
 .Menu__content__card__text {
   padding-left: 10px;
@@ -539,6 +553,14 @@ header img {
   }
   100% {
     margin-right: 0;
+  }
+}
+@keyframes menu {
+  0% {
+    transform: translateY(-216px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 * {

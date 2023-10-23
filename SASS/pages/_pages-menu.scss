@@ -23,6 +23,7 @@
         flex-direction: column;
         justify-content: space-between;
         gap: 10px;
+        overflow: hidden;
 
         &__card {
             background-color: white;
@@ -32,9 +33,16 @@
             align-items: center;
             height: 72px;
             overflow: hidden;
-            
+            animation: menu 1000ms cubic-bezier(.17,.81,.79,.84);
+
             &:hover > .Menu__content__card__check {
                 animation: check 500ms forwards ease-in-out;
+            }
+
+            @for $i from 1 through 4 {
+                &--#{$i} {
+                    animation-delay: 100ms * $i;
+                }
             }
 
             &__text {
@@ -97,6 +105,15 @@
     }
 }
 
+@keyframes menu {
+    0% {
+        transform: translateY(-216px);
+    }
+    
+    100% {
+        transform: translateY(0);
+    }
+}
 
 
 
