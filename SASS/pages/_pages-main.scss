@@ -1,6 +1,9 @@
 .Mainpage {
 
     img {
+        object-fit: cover;
+        height: 250px;
+        
         @media (min-width: 1024px) {
             object-fit: cover;
             object-position: 50% 60%;
